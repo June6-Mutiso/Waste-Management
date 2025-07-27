@@ -19,7 +19,7 @@ $feedback_items = $stmt->fetchAll();
     <h2>Your Feedback Status</h2>
     
     <?php if (empty($feedback_items)): ?>
-        <p>You haven't submitted any feedback yet. <a href="/feedback.php">Submit your first feedback</a>.</p>
+        <p>You haven't submitted any feedback yet. <a href="feedback.php">Submit your first feedback</a>.</p>
     <?php else: ?>
         <div class="feedback-list">
             <?php foreach ($feedback_items as $item): ?>

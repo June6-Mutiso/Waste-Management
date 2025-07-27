@@ -51,7 +51,7 @@ $schedules = $stmt->fetchAll();
 $days_of_week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 ?>
 
-<?php require_once _DIR_ . '/includes/header.php'; ?>
+<?php require_once  'includes/header.php'; ?>
 
 <section class="schedule-management">
     <h2>Waste Collection Schedule</h2>

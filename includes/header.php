@@ -174,4 +174,4 @@ require_once __DIR__ . '/auth.php';
         </div>
     </header>
     <main class="container">
-<?php
+<?
